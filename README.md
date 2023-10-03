@@ -10,28 +10,28 @@ Serverless and PWAs are both considered to be the future of web development, wit
 
 **Serverless Advantages:**
 
--No backend maintenance
--easy to scale
--always available
+-No backend maintenance  
+-easy to scale  
+-always available  
 -no cost for idle time
 
 **PWA Advantages:**
 
--Instant loading
--offline support
--push notifications
--“add to home screen” prompt
--responsive design
+-Instant loading  
+-offline support  
+-push notifications  
+-“add to home screen” prompt  
+-responsive design  
 -and cross-platform compatibility
 
 The Meet app is designed to curate events based on city inputs, with data visualization illuminating event distribution by location and popularity of event genres.
 
 ## The 5Ws:
 
-**Who** — The users of your Meet app. They could be you, your friends, your professional network, or your potential employers.
-**What** — A progressive web app with the ability to work offline and a serverless backend developed using a TDD technique.
-**When** — Users of this app will be able to use it whenever they want to view upcoming events for a specific city. Your recruiter will be able to see your code immediately on GitHub.
-**Where** — The server, in this case, is a serverless function hosted by a cloud provider (e.g., AWS). The application itself is also hosted online to make it shareable and installable. It can be used even when the user is offline. As it’s responsive, it displays well on any device.
+**Who** — The users of your Meet app. They could be you, your friends, your professional network, or your potential employers.  
+**What** — A progressive web app with the ability to work offline and a serverless backend developed using a TDD technique.  
+**When** — Users of this app will be able to use it whenever they want to view upcoming events for a specific city. Your recruiter will be able to see your code immediately on GitHub.  
+**Where** — The server, in this case, is a serverless function hosted by a cloud provider (e.g., AWS). The application itself is also hosted online to make it shareable and installable. It can be used even when the user is offline. As it’s responsive, it displays well on any device.  
 **Why** — Serverless is the next generation of cloud infrastructure, PWA provides great user experience and performance, and the TDD technique ensures you have quality code and adequate test coverage. All of these skills, together with data visualization, will distinguish you from other web developers.
 
 ## User Stories, Scenarios, and Acceptance Criteria
@@ -96,9 +96,9 @@ Display a chart of upcoming events by city. Given the user is on the events page
 -Full compatibility, inclusive of IE11  
 -Adaptive design (ranging from 1920px to 320px)  
 -Achieves PWA standards as per Lighthouse
--Service workers ensure offline functionality
--Deployment via GitHub Pages
--Object-Oriented Programming (OOP) for alerts
--Data visualization tools integrated
--Aiming for ≥ 90% test coverage
+-Service workers ensure offline functionality  
+-Deployment via GitHub Pages  
+-Object-Oriented Programming (OOP) for alerts  
+-Data visualization tools integrated  
+-Aiming for ≥ 90% test coverage  
 -Performance monitoring via online tools
