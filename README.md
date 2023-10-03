@@ -1,6 +1,6 @@
 <pre>
 
-<b> MeetUniversity: A Meet App </b> 
+MeetUniversity: A Meet App 
 
 Objective:
 
