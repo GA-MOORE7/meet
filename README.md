@@ -1,10 +1,10 @@
-MeetUniversity: A Meet App
+#MeetUniversity: A Meet App
 
-Objective:
+##Objective:
 
 Build a serverless, progressive web application (PWA) with React using a test-driven development (TDD) technique. The application uses the Google Calendar API to fetch upcoming events.
 
-Context:
+##Context:
 
 Serverless and PWAs are both considered to be the future of web development, with benefits like:
 
@@ -26,7 +26,7 @@ and cross-platform compatibility
 
 The Meet app is designed to curate events based on city inputs, with data visualization illuminating event distribution by location and popularity of event genres.
 
-The 5Ws:
+##The 5Ws:
 
 Who — The users of your Meet app. They could be you, your friends, your professional network, or your potential employers.
 What — A progressive web app with the ability to work offline and a serverless backend developed using a TDD technique.
@@ -34,7 +34,7 @@ When — Users of this app will be able to use it whenever they want to view upc
 Where — The server, in this case, is a serverless function hosted by a cloud provider (e.g., AWS). The application itself is also hosted online to make it shareable and installable. It can be used even when the user is offline. As it’s responsive, it displays well on any device.
 Why — Serverless is the next generation of cloud infrastructure, PWA provides great user experience and performance, and the TDD technique ensures you have quality code and adequate test coverage. All of these skills, together with data visualization, will distinguish you from other web developers.
 
-User Stories, Scenarios, and Acceptance Criteria
+##User Stories, Scenarios, and Acceptance Criteria
 
 Key Features:
 
@@ -86,7 +86,7 @@ Feature 6: Display Charts Visualizing Event Details
 SCENARIO 1:
 Display a chart of upcoming events by city. Given the user is on the events page. When the user looks at the events visualization section. Then the user should see a chart showing the number of upcoming events in each city.
 
-Technical Mandates
+##Technical Mandates
 
 Framed in React
 Strict adherence to TDD
