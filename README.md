@@ -88,13 +88,13 @@ Display a chart of upcoming events by city. Given the user is on the events page
 
 ### Technical Mandates
 
--Framed in React
--Strict adherence to TDD
--Google Calendar API with OAuth2
--Serverless function calls (preferably AWS Lambda)
--GitHub hosting
--Full compatibility, inclusive of IE11
--Adaptive design (ranging from 1920px to 320px)
+-Framed in React  
+-Strict adherence to TDD  
+-Google Calendar API with OAuth2  
+-Serverless function calls (preferably AWS Lambda)  
+-GitHub hosting  
+-Full compatibility, inclusive of IE11  
+-Adaptive design (ranging from 1920px to 320px)  
 -Achieves PWA standards as per Lighthouse
 -Service workers ensure offline functionality
 -Deployment via GitHub Pages
