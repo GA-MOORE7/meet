@@ -1,6 +1,6 @@
 <pre>
 
-**MeetUniversity: A Meet App**
+__MeetUniversity: A Meet App__
 
 Objective:
 
