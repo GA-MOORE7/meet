@@ -6,7 +6,7 @@ provider:
   name: aws
   runtime: nodejs18.x
   region: ap-northeast-2
-  timeout: 30
+  timeout: 30 # optional, in seconds, default is 6
 
   environment:
     CLIENT_ID: ${file(config.json):CLIENT_ID}
