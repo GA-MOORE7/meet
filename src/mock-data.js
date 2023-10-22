@@ -1,4 +1,3 @@
-// src/mock-data.js
 
 const mockData = [
     {
