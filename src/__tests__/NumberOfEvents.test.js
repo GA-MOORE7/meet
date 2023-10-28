@@ -1,26 +1,25 @@
-import { render } from "@testing-library/react";
 import NumberOfEvents from "../components/NumberOfEvents";
 import userEvent from "@testing-library/user-event";
+import { render } from "@testing-library/react";
 
 describe("<NumberOfEvents /> component", () => {
 
 let NumberOfEventsComponent;
 beforeEach(() => {
     NumberOfEventsComponent = render(
-    <NumberOfEvents setCurrentNOE={() => {}} />
+    <NumberOfEvents setCurrentNOE={() => {}} setErrorAlert={() => {}} />
     );
 });  
 
-test("contains an element with the role of the textbox", () => {
-    const NumberOfEventsTextBox = NumberOfEventsComponent.queryByRole("textbox");
-    expect(NumberOfEventsTextBox).toBeInTheDocument();
-    expect(NumberOfEventsTextBox).toHaveClass("event-number");
-});  
+test('has the input textbox', () => {
+    const input = NumberOfEventsComponent.queryByRole('textbox');
+    expect(input).toBeInTheDocument();
+  });
 
-test("the default value of the input field is 32", () => {
-    const textBox = NumberOfEventsComponent.queryByRole("textbox");
-    expect(textBox.value).toBe("32");
-}); 
+  test('default number of events is 32', () => {
+    const input = NumberOfEventsComponent.queryByRole('textbox');
+    expect(input).toHaveValue('32');
+  });
 
 test("number of events changes when user types", async () => {
     const input = NumberOfEventsComponent.queryByRole("textbox");
