@@ -1,10 +1,21 @@
 import React from "react";
 
-const NumberOfEvents = ({ setCurrentNOE }) => {
+const NumberOfEvents = ({ setCurrentNOE, setErrorAlert }) => {
 
   const handleInputChanged = (event) => {
     const value = event.target.value;
     setCurrentNOE(value);
+
+    let infoText;
+    if (isNaN(value) || value <= 0) {
+      infoText = 'Please enter a number greater than 0.';
+      setErrorAlert(infoText);
+    } else {
+      infoText = '';
+      setErrorAlert(infoText);
+      setCurrentNOE(value);
+    }
+
   };
 
   return (
