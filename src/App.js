@@ -38,7 +38,7 @@ const App = () => {
         <CitySearch 
           allLocations={allLocations} 
           setCurrentCity={setCurrentCity} 
-          setInfoAlert={setInfoAlert} 
+          setInfoAlert={setInfoAlert}   
         />
         <NumberOfEvents 
           setCurrentNOE={setCurrentNOE} 
