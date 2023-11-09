@@ -8,7 +8,7 @@ import { InfoAlert, ErrorAlert, WarningAlert } from './components/Alert';
 import './App.css';
 
 
-const App = () => {  
+const App = () => {
   const [events, setEvents] = useState([]);
   const [currentNOE, setCurrentNOE] = useState(32);  
   const [allLocations, setAllLocations] = useState([]);  
