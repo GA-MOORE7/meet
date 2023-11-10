@@ -52,6 +52,7 @@ const App = () => {
           setErrorAlert={setErrorAlert}
         />
         <EventList events={events} />
+        <WarningAlert text={this.state.offlineText} />
     </div>
   );
 }
