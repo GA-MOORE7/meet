@@ -52,6 +52,8 @@ const App = () => {
           setErrorAlert={setErrorAlert}
         />
         <EventList events={events} />
+        
+               
     </div>
   );
 }
