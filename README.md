@@ -26,6 +26,10 @@ Serverless and PWAs are both considered to be the future of web development, wit
 
 The Meet app is designed to curate events based on city inputs, with data visualization illuminating event distribution by location and popularity of event genres.
 
+## Link to Live Site:
+
+#### https://ga-moore7.github.io/meet/
+
 ## The 5Ws:
 
 **Who** — The users of your Meet app. They could be you, your friends, your professional network, or your potential employers.  
